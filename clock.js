@@ -45,13 +45,13 @@ function startClock() {
 }
 
 function degreesSeconds(seconds) {
-  var percent = seconds / secondsperminute * 360;
+  var time = seconds / secondsperminute * 360;
 }
 
 function degreesMinutes(seconds) {
-  var percent = seconds / secondsperhour * 360;
+  var time = seconds / secondsperhour * 360;
 }
 
 function degreesHours(seconds) {
-  var percent = seconds / secondsper12hours * 360;
+  var time = seconds / secondsper12hours * 360;
 }
